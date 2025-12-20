@@ -2,14 +2,15 @@ import AllSection from "../components/body/expertInstructors/AllSection";
 import OurstorySection from "../components/body/ourstory/OurstorySection";
 import Student from "../components/body/topStudent/student";
 import Header from "../components/header/headercontent/cont";
-
+import OurStory from "../components/body/ourstory/OurStory";
+import ExpertSection from "../components/body/expert/ExpertSection";
 export default function  HomePage(){
     return (
         <>
             <div className="w-full h-full flex flex-col">
                 <Header />
-                <OurstorySection/>
-                <AllSection/>
+                <OurStory/>
+                <ExpertSection/>
                 <Student/>
             </div>
         

@@ -7,51 +7,56 @@ function Footer2() {
   return (
     <footer className="relative w-full overflow-hidden">
 
-      {/* Background Layer 1 */}
-      <div
-        className="absolute inset-0 bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url(${vector3})` }}
-      />
+     {/* Background wrapper (auto-tall on mobile) */}
+<div className="absolute inset-0 min-h-full sm:min-h-[1100px] md:min-h-full">
+  <div
+    className="absolute inset-0 bg-no-repeat bg-cover bg-center"
+    style={{ backgroundImage: `url(${vector3})` }}
+  />
+  <div
+    className="absolute inset-0 bg-no-repeat bg-cover bg-center"
+    style={{ backgroundImage: `url(${vector4})` }}
+  />
+</div>
 
-      {/* Background Layer 2 */}
-      <div
-        className="absolute inset-0 bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url(${vector4})` }}
-      />
 
-      {/* 🟧 ORANGE CONTAINER */}
-      <div
-        className="
-          relative z-10
-          max-w-7xl mx-auto px-
-          min-h-[600px]
-          flex flex-col
-        "
-      >
+      {/* CONTENT */}
+      <div className="relative z-10 max-w-7xl mx-auto min-h-[600px] flex flex-col justify-end px-6">
 
-        {/* ✅ WRAPPER that pushes BOTH blue + black DOWN */}
-        <div className="mt-auto">
+        {/* MAIN ROW */}
+        <div className="flex flex-col md:flex-row gap-12 items-end">
 
-          {/* 🟦 BLUE CONTENT */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left ">
+          {/* LOGO / ABOUT — FULL CENTER ON MOBILE */}
+          <div className="flex flex-col items-center text-center mt-16 mx-auto md:mx-0 ">
+            <img
+              src={symponylogo}
+              alt="Harmony Music School"
+              className="w-51 mb-4"
+            />
+           
+            <p className="text-gray-300 text-sm max-w-xs mt-2">
+              Inspiring musical excellence and creativity since 2010.
+              Join us and unleash your musical talent.
+            </p>
+          </div>
 
-            {/* Logo + About */}
-            <div className=" text-center flex flex-col justify-center items-center  h-60">
+          {/* CONTACT + LINKS */}
+          <div
+            className="
+              flex
+              gap-8                 /* tighter mobile gap */
+              sm:gap-14
+              md:gap-52             /* desktop gap */
+              items-start
+              md:items-center
+              md:ml-auto
+              w-full md:w-auto
               
-              <img 
-                src={symponylogo}
-                alt="Symphony Music Institute"
-                className="mx-auto md:mx-0 w-55 mb-6 h-45 "
-              />
-              <p className="text-gray-300 text-sm leading-relaxed">
-                Inspiring musical excellence and creativity since 2010.
-                Join us and unleash your musical talent.
-              </p>
-            </div>
-
-            {/* Contact */}
-            <div className=" text-center ">
-              <h3 className="text-yellow-400 font-semibold mb-4 ">
+            "
+          >
+            {/* CONTACT — mobile: slightly right + left-aligned text */}
+            <div className="w-60 text-left md:text-center mx-auto md:mx-0">
+              <h3 className="text-yellow-400 font-semibold mb-4">
                 Contact Us
               </h3>
               <ul className="text-gray-300 text-sm space-y-3">
@@ -61,8 +66,8 @@ function Footer2() {
               </ul>
             </div>
 
-            {/* Quick Links */}
-            <div className=" text-center">
+            {/* QUICK LINKS — mobile: slightly left */}
+            <div className="w-60 text-left md:text-center mx-auto md:mx-0 ml-13 sm:ml-6 md:ml-0">
               <h3 className="text-yellow-400 font-semibold mb-4">
                 Quick Links
               </h3>
@@ -75,12 +80,11 @@ function Footer2() {
               </ul>
             </div>
           </div>
+        </div>
 
-          {/* ⬛ BLACK FOOTER BAR */}
-          <div className="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm ">
-            © 2025 Symphony Music Institute
-          </div>
-
+        {/* FOOTER BAR */}
+        <div className="border-t border-gray-700 pt-4 mt-8 text-center text-gray-400 text-sm">
+          © 2025 Symphony Music Institute
         </div>
       </div>
     </footer>

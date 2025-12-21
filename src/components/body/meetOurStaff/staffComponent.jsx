@@ -6,7 +6,7 @@ import staffGray from "../../../assets/ourStaff/staffGray.png";
 export default function StaffComponent({ staff }) {
   return (
 
-    <div className="w-[429.34px] h-[366.71px]   relative xl:scale-100 lg:scale-75 md:scale-80 scale-85 ">
+    <div className="w-[429.34px] h-[366.71px]   relative xl:scale-85 lg:scale-75 md:scale-80 scale-85 ">
 
       <img
         src={staff.image}

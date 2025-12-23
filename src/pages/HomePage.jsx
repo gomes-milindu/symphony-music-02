@@ -1,10 +1,12 @@
 import Student from "../components/body/topStudent/student";
+import Footer2 from "../components/footer/Footer2";
 import Header from "../components/header/headercontent/cont";
 import OurStory from "../components/body/ourstory/OurStory";
 import ExpertSection from "../components/body/expert/ExpertSection";
 export default function  HomePage(){
     return (
-        <>
+    <>
+
             <div className="w-full h-full flex flex-col">
                 <Header />
                 <OurStory/>
@@ -12,6 +14,8 @@ export default function  HomePage(){
                 <Student/>
             </div>
         
+
+      
         </>
     )
 }

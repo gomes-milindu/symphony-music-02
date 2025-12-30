@@ -7,7 +7,7 @@ export default function Student() {
     <>
       {/* desktop */}
       <section className="hidden lg:block relative bg-red-600">
-        <div className="w-[1330px] mx-auto pt-[40px] bg-blue-500">
+        <div className="w-[1330px] mx-auto pt-[40px] ">
          <div className="flex justify-center bg-amber-950">
              <Topic
             title="Our Top Students"
@@ -16,16 +16,16 @@ export default function Student() {
           />
          </div>
               
-          <div className="w-fit h-full relative mt-[80px] bg-green-500">
+          <div className="w-fit h-full relative mt-[80px]">
             
             {/* Left Column */}
-            <div className="flex flex-col gap-[200px] absolute top-0 left-0 bg-amber-600">
+            <div className="flex flex-col gap-[200px] absolute top-0 left-0">
               <LeftTopStudent />
               <LeftTopStudent />
             </div>
 
             {/* Right Column */}
-            <div className="flex flex-col gap-[200px] absolute left-[541px] top-[379px] bg-pink-600">
+            <div className="flex flex-col gap-[200px] absolute left-[541px] top-[379px]">
               <RightTopStudent />
               <RightTopStudent />
             </div>

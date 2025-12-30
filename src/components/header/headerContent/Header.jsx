@@ -9,7 +9,7 @@ import Vector9 from "../../../assets/homePage/Vector9.png";
 
 export default function Header() {
   return (
-    <div className="w-full bg-red-500 relative overflow-hidden ">
+    <div className="w-full relative overflow-hidden ">
       <div className="hidden lg:block relative w-full aspect-[2/1] overflow-hidden">
         <svg
           viewBox="0 0 1920 960"

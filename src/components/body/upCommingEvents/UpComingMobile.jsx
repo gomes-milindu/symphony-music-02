@@ -9,7 +9,7 @@ function UpComingMobile(props){
                     <div className="w-4/4 h-[199px] bg-green-300 rounded-[7px]"></div>
                     <div className="w-4/4 h-[139px] flex flex-col gap-3">
                         <div className="flex flex-col gap-2">
-                            <div className="w-full text-[1.25rem] font-semibold">props.title</div>
+                            <div className="w-full text-[1.25rem] font-semibold">{props.title}</div>
                             <div className="w-full flex flex-col gap-1">
                                 <div className="flex flex-row items-center gap-3">
                                     <div className="w-4.5 h-4.5 bg-amber-800"></div>

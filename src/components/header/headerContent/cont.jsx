@@ -8,51 +8,8 @@ import Navbar from "../navigate/nav";
 import Layer1 from "../../../assets/homePage/Layer1.png";
 
 export default function Header() {
-<<<<<<< HEAD:src/components/header/headerContent/cont.jsx
     return (
         <div className="relative w-full h-[661px] overflow-hidden flex items-center justify-center lg:gap-16  lg:h-[960px] lg:py-[120px] lg:px-[120px]">
-=======
-  return (
-    <div className="w-full relative overflow-hidden ">
-      <div className="hidden lg:block relative w-full aspect-[2/1] overflow-hidden">
-        <svg
-          viewBox="0 0 1920 960"
-          className="hidden lg:block absolute inset-0 w-full h-full"
-          preserveAspectRatio="xMidYMid slice"
-        >
-          <image href={Vector7} width="1920" height="960" />
-          <image
-            href={MaskgroupLg}
-            width="1920"
-            height="960"
-            preserveAspectRatio="xMidYMid slice"
-          />
-        </svg>
-      </div>
-      <div className="hidden md:block lg:hidden relative w-full">
-        <svg
-          viewBox="0 0 834 562"
-          className="w-full h-auto block"
-          preserveAspectRatio="xMidYMid slice"
-        >
-          <image href={Vector8} width="834" height="625" />
-          <image
-            href={MaskgroupMd}
-            width="834"
-            height="562"
-            preserveAspectRatio="xMidYMid slice"
-          />
-        </svg>
-      </div>
-      <div className="md:hidden relative w-full">
-        <svg
-          viewBox="0 0 430 661"
-          className="w-full h-auto block"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          {/* Vector9 */}
-          <image href={Vector9} width="430" height="700" />
->>>>>>> e76bd2e6849874bd9d4dca8316b1ab0b9cef0f2c:src/components/header/headerContent/Header.jsx
 
 
             {/* Yellow colour vector  */}

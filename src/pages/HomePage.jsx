@@ -1,5 +1,12 @@
+import Student from "../components/body/topStudent/student";
+
+
 export default function  HomePage(){
     return (
-        <h1>Home Page</h1>
+        <>
+            
+            <Student />
+                
+        </>
     )
 }

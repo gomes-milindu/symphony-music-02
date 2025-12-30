@@ -7,8 +7,9 @@ import GridOverlay from './layout/GridOverlay.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <GridOverlay /> */}
+    <GridOverlay />
     <App />
+  
     
   </StrictMode>,
 )

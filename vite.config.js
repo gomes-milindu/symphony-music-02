@@ -8,7 +8,7 @@ export default defineConfig({
   theme: {
     screens: {
      // esm: "320px",
-      //sm: "480px",
+      xsm: "480px",
       sm:"640px",
       md: "768px",
       lg: "1024px",

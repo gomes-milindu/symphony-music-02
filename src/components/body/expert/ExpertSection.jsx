@@ -33,11 +33,11 @@ function ExpertSection() {
   ];
 
   return (
-    <section className="w-full flex justify-center">
-      <div className="w-10/12 flex flex-col gap-7">
+    <section className="w-full flex justify-center ">
+      <div className="w-10/12 flex flex-col gap-7  ">
 
         {/* ================= MOBILE (Swiper) ================= */}
-        <div className="block md:hidden">
+        <div className="block md:hidden ">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
@@ -56,34 +56,34 @@ function ExpertSection() {
         <div className="w-full hidden md:grid xl:hidden grid-cols-8 gap-10 bg-green-200">
           {/* Top row – 2 cards */}
          
-          <div className="col-span-4 h-[256px]">
+          <div className="col-span-4 max-h-[240px]">
             <Card {...cards[0]} />
           </div>
-          <div className="col-span-4 h-[256px]">
+          <div className="col-span-4 max-h-[240px]">
             <Card {...cards[1]} />
           </div>
        
 
           {/* Second row – 2 cards */}
          
-          <div className="col-span-4 h-[256px]">
+          <div className="col-span-4 max-h-[240px]">
             <Card {...cards[2]} />
           </div>
-          <div className="col-span-4 h-[256px]">
+          <div className="col-span-4 max-h-[240px]">
             <Card {...cards[3]} />
           </div>
        
 
           {/* Last row – 1 card */}
           <div className="col-span-2" />
-          <div className="col-span-4 h-[256px]">
+          <div className="col-span-4 max-h-[240px]">
             <Card {...cards[4]} />
           </div>
           <div className="col-span-2" />
         </div>
 
         {/* ================= DESKTOP (12 COL GRID) ================= */}
-        <div className="hidden xl:grid grid-cols-12 gap-5">
+        <div className="hidden h-[540px] bg-blue-100 xl:grid grid-cols-12 gap-5">
           {/* Top row */}
           <div className="col-span-2" />
           {cards.slice(0, 2).map((card, i) => (

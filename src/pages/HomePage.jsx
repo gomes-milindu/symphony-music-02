@@ -1,4 +1,5 @@
 
+import OurstorySection from "../components/body/ourstory/OurstorySection"
 import Student from "../components/body/topStudent/student"
 import UpCommingCard from "../components/body/upCommingEvents/UpComingCard"
 import Header from "../components/header/headerContent/Header"
@@ -10,6 +11,8 @@ export default function  HomePage(){
     return (
         <>
             <Header />
+
+            <OurstorySection />
             
             <div className="hidden md:flex">
                 <UpCommingSection />

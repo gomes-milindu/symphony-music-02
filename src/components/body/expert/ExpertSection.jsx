@@ -53,7 +53,7 @@ function ExpertSection() {
         </div>
 
         {/* ================= TAB (8 COL GRID) ================= */}
-        <div className="w-full hidden md:grid xl:hidden grid-cols-8 gap-10 bg-green-200">
+        <div className="w-full hidden md:grid xl:hidden grid-cols-8 gap-10">
           {/* Top row – 2 cards */}
          
           <div className="col-span-4 max-h-[240px]">
@@ -83,7 +83,7 @@ function ExpertSection() {
         </div>
 
         {/* ================= DESKTOP (12 COL GRID) ================= */}
-        <div className="hidden h-[540px] bg-blue-100 xl:grid grid-cols-12 gap-5">
+        <div className="hidden h-[540px]  xl:grid grid-cols-12 gap-5">
           {/* Top row */}
           <div className="col-span-2" />
           {cards.slice(0, 2).map((card, i) => (

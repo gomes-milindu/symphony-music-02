@@ -13,11 +13,11 @@ function OurStory() {
               
               <div className='w-full md:w-1/2 xl:w-6/12 flex flex-col justify-center items-center'>
                 
-                <div className='flex justify-center items-center xl:block'>
+                {/* ✅ FIXED HERE */}
+                <div className='flex justify-center items-center xl:justify-start xl:items-start text-center xl:text-left w-full'>
                   <Topic title="Our Story" />
                 </div>
                 
-               
                 <div className='xl:hidden w-full flex justify-center items-center -mt-12 md:-mt-16'>
                   <img
                     src={StoryImg}

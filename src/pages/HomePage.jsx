@@ -19,7 +19,7 @@ export default function  HomePage(){
                 <UpComingSlide />
             </div>
             <UpCommingSection />
-            {/* <UpComingSlide /> */}
+            <UpComingSlide />
 
             
                 

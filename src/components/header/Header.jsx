@@ -1,13 +1,13 @@
 import React from "react";
-import Vector7 from "../../../assets/homePage/Vector7.png"; // Under vector
-import MaskgroupLg from "../../../assets/homePage/MaskgroupLg.png";
-import MaskgroupMd from "../../../assets/homePage/MaskgroupMd.png"; // Desktop background
-import Vector8 from "../../../assets/homePage/Vector8.svg"; // Mask overlay
-import Layer1 from "../../../assets/homePage/Layer1.png";
+import Vector7 from "../../assets/homePage/Vector7.png"; // Under vector
+import MaskgroupLg from "../../assets/homePage/MaskgroupLg.png";
+import MaskgroupMd from "../../assets/homePage/MaskgroupMd.png"; // Desktop background
+import Vector8 from "../../assets/homePage/Vector8.png"; // Mask overlay
+import Layer1 from "../../assets/homePage/Layer1.png";
 
-import MaskgroupSm from "../../../assets/homePage/MaskgroupSm.png";
-import Vector9 from "../../../assets/homePage/Vector9.png";
-import Navbar from "../navBar/Navbar";
+import MaskgroupSm from "../../assets/homePage/MaskgroupSm.png";
+import Vector9 from "../../assets/homePage/Vector9.png";
+import Navbar from "../header/navBar/Navbar";
 
 export default function Header() {
   return (

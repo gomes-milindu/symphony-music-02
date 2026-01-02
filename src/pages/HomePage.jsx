@@ -3,6 +3,7 @@ import Student from "../components/body/topStudent/student";
 import OurStory from "../components/body/ourstory/OurStory";
 import ExpertSection from "../components/body/expert/ExpertSection";
 import Navbar from "../components/header/navBar/Navbar";
+import UpComingSlide from "../section/homepage/UpComingSlide";
 export default function  HomePage(){
     return (
         <>
@@ -11,14 +12,15 @@ export default function  HomePage(){
                 <OurStory/>
                 <ExpertSection/>
                 <Student/>
+                <div className="md:hidden">
+                <UpComingSlide />
+            </div>
             </div>
         
 
-            <div className="md:hidden">
-                <UpComingSlide />
-            </div>
-            <UpCommingSection />
-            <UpComingSlide />
+            
+            {/* <UpCommingSection />
+            <UpComingSlide /> */}
 
             
                 

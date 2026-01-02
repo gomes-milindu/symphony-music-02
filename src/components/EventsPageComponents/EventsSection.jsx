@@ -15,10 +15,11 @@ function EventsSection() {
       : eventsData.filter((event) => new Date(event.date) < today);
 
   return (
-    <div className="w-[1360px] h-[3082px] mt-[808px] ml-[280px] gap-32 flex flex-col items-center">
+    <div className="w-full flex items-center justify-center">
+        <div className="w-10/12 h-[3082px] bg-green-300  gap-32 flex flex-col items-center">
 
       {/* Filter Buttons */}
-      <div className="flex w-[508px] h-[60px] justify-between gap-3 ">
+      <div className="flex   justify-between gap-3 ">
         <button
           className={`w-[153px] h-[60px] pt-3 pr-5 pb-3 pl-5 gap-2.5 ${
             filter === "All" ? " border-b-2 border-[#393939] text-[#393939]" : "text-[#454545]"
@@ -60,6 +61,8 @@ function EventsSection() {
         ))}
       </div>
     </div>
+    </div>
+  
   );
 }
 

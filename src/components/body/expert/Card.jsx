@@ -12,8 +12,8 @@ function Card(props) {
         justify-start md:justify-center
         shadow-[0px_2px_12px_0px_#00000026]
         gap-[14px] md:gap-[24px]  xl:gap-[26px]
-        px-4 md:px-0
-        bg-[#FFFCF3]  md:bg-white
+        px-4 md:px-0 bg-[#FFFCF3]
+       md:bg-white
       "
     >
       {/* ICON (CENTERED + ROUND) */}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { eventsData } from "./eventsData";
+import { eventsData } from "./Eventsdata.jsx";
 import EventMobileCard from "./EventMobileCard";
 import EventCardSmall from "./EventCardSmall";
 import EventCardBig from "./EventCardBig";

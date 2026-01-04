@@ -6,6 +6,7 @@ import Navbar from "../components/header/navBar/Navbar";
 import UpComingSlide from "../section/homepage/UpComingSlide";
 import UpComingSection from "../section/homepage/UpComingSection";
 import Header from "../components/header/Header";
+import ClassCartSet from "../components/body/joinOurClasses/classCartSet";
 export default function HomePage() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function HomePage() {
         <OurStory />
         <ExpertSection />
         <Student />
+        <ClassCartSet />
         <UpComingSection />
         <div className="md:hidden">
           <UpComingSlide />

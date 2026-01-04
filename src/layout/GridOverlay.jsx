@@ -4,7 +4,7 @@ function GridOverlay() {
   return (
     <div className="pointer-events-none fixed inset-0 z-9999">
       <div className="w-full h-full flex justify-center">
-        <div className="w-full max-w-sc-full h-full px-4">
+        <div className="w-full max-w-360 h-full">
           {/* Responsive grid */}
           <div className="
             h-full 

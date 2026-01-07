@@ -8,9 +8,9 @@ export default function Student() {
     <>
      
 
-      <section className=" lg:flex flex-col w-full justify-center ">
+      <section className=" lg:flex flex-col w-full justify-center mb-15">
       
-         <div className="flex justify-center">
+         <div className="flex justify-center mb-15 mt-5">
              <Topic
             title="Our Top Students"
             subtitle="Meet our star performers who have achieved excellence through dedication and passion."

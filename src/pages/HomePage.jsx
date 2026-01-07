@@ -6,22 +6,23 @@ import Navbar from "../components/header/navBar/Navbar";
 import UpComingSlide from "../section/homepage/UpComingSlide";
 import UpComingSection from "../section/homepage/UpComingSection";
 import Header from "../components/header/Header";
+import ClassCartSet from "../components/body/joinOurClasses/classCartSet";
 export default function HomePage() {
   return (
     <>
       <div className="w-full h-full flex flex-col">
-        
         <Header />
         <OurStory />
         <ExpertSection />
-        <Student /> 
-         <UpComingSection />
+        <Student />
+        <ClassCartSet />
+        <div className="hidden md:inline-block">
+          <UpComingSection />
+        </div>
         <div className="md:hidden">
           <UpComingSlide />
         </div>
       </div>
-
-      
     </>
   );
 }

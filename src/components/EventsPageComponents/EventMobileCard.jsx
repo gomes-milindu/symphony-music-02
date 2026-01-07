@@ -8,7 +8,7 @@ export default function EventMobileCard({
   details,
 }) {
   return (
-    <div className=" w-full bg-white border rounded-2xl overflow-hidden">
+    <div className=" w-full bg-white border rounded-2xl overflow-hidden p-3">
       <img src={pic} className="w-full h-[220px] object-cover" alt="" />
 
       <div className="p-4 flex flex-col gap-3">

@@ -33,16 +33,15 @@ function ExpertSection() {
   ];
 
   return (
-    <section className="w-full flex justify-center ">
-      <div className="w-10/12 flex flex-col gap-7  ">
-
-        {/* ================= MOBILE  ================= */}
-        <div className="block md:hidden ">
+    <section className="w-12/12 flex justify-center  md:p-3 xl:p-0 mt-5 mb-15 xl:mb-20 ">
+      <div className="flex flex-col w-10/12 xl:justify-center xl:items-center">
+        {/* MOBILE */}
+        <div className="md:hidden w-full p-5">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
             loop
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            autoplay={{ delay: 4500, disableOnInteraction: false }}
           >
             {cards.map((card, i) => (
               <SwiperSlide key={i}>
@@ -52,54 +51,63 @@ function ExpertSection() {
           </Swiper>
         </div>
 
-        {/* ================= TAB (8 COL GRID) ================= */}
-        <div className="w-full hidden md:grid xl:hidden grid-cols-8 gap-10">
-          {/* Top row – 2 cards */}
-         
-          <div className="col-span-4 max-h-[240px]">
+        {/* TABLET */}
+        <div className="hidden md:grid xl:hidden grid-cols-8 gap-10 ">
+          <div className="col-span-4">
             <Card {...cards[0]} />
           </div>
-          <div className="col-span-4 max-h-[240px]">
+          <div className="col-span-4">
             <Card {...cards[1]} />
           </div>
-       
-
-          {/* Second row – 2 cards */}
-         
-          <div className="col-span-4 max-h-[240px]">
+          <div className="col-span-4">
             <Card {...cards[2]} />
           </div>
-          <div className="col-span-4 max-h-[240px]">
+          <div className="col-span-4">
             <Card {...cards[3]} />
           </div>
-       
-
-          {/* Last row – 1 card */}
           <div className="col-span-2" />
-          <div className="col-span-4 max-h-[240px]">
+          <div className="col-span-4">
             <Card {...cards[4]} />
           </div>
           <div className="col-span-2" />
         </div>
 
-        {/* ================= DESKTOP (12 COL GRID) ================= */}
-        <div className="hidden h-[540px]  xl:grid grid-cols-12 gap-5">
-          {/* Top row */}
-          <div className="col-span-2" />
-          {cards.slice(0, 2).map((card, i) => (
-            <div key={i} className="col-span-4 h-[256px]">
-              <Card {...card} />
-            </div>
-          ))}
-          <div className="col-span-2" />
+       {/* ================= DESKTOP ================= */}
+<div className="hidden xl:flex w-full flex-col gap-16 justify-center items-center">
 
-          {/* Bottom row */}
-          {cards.slice(2, 5).map((card, i) => (
-            <div key={i} className="col-span-4 h-[256px]">
-              <Card {...card} />
-            </div>
-          ))}
-        </div>
+  {/* ================= TOP ROW ================= */}
+  <div className="w-full flex justify-center">
+    <div className="flex  justify-center gap-5">
+      
+      <div className="w-4/12 h-[256px] flex justify-center">
+        <Card {...cards[0]} />
+      </div>
+
+      <div className="w-4/12 h-[256px] flex justify-center">
+        <Card {...cards[1]} />
+      </div>
+
+    </div>
+  </div>
+
+  {/* ================= BOTTOM ROW ================= */}
+<div className="w-11/12 flex items-center justify-between gap-3">
+
+  <div className="w-6/12 h-[256px] flex justify-center">
+    <Card {...cards[2]} />
+  </div>
+
+  <div className="w-6/12 h-[256px] flex justify-center">
+    <Card {...cards[3]} />
+  </div>
+
+  <div className="w-6/12 h-[256px] flex justify-center">
+    <Card {...cards[4]} />
+  </div>
+
+</div>
+
+</div>
 
       </div>
     </section>

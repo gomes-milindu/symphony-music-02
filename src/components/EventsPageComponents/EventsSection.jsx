@@ -19,12 +19,12 @@ export default function EventsSection() {
   });
 
   return (
-    <section className="w-full flex flex-col items-center bg-amber-200 gap-[128px] ">
-      <div className="w-full md:w-full xl:w-10/12 bg-green-200 flex flex-col p-5 items-center md:p-4 xl:p-5">
+    <section className="w-full flex flex-col items-center gap-[128px] ">
+      <div className="w-full md:w-full xl:w-10/12 flex flex-col p-5 items-center md:p-4 xl:p-5">
 
       <div></div>  
       {/* FILTER */}
-      <div className="flex justify-center items-center w-full bg-red-300 md:w-4/8 xl:w-/12 gap-5  md:gap-6 mb-14">
+      <div className="flex justify-center items-center w-full md:w-4/8 xl:w-/12 gap-5  md:gap-6 mb-14">
         {["All", "Upcoming", "Past"].map((type) => (
           <button
             key={type}
@@ -48,7 +48,7 @@ export default function EventsSection() {
       </div>
 
       {/* ================= TABLET (1 CARD + POPUP) ================= */}
-      <div className="hidden md:grid  md:grid-cols-2 md:w-full bg-blue-500 xl:hidden flex-col gap-16">
+      <div className="hidden md:grid  md:grid-cols-2 md:w-full xl:hidden flex-col gap-16">
         {filteredEvents.map((e, i) => (
           <EventCardSmall
             key={i}
@@ -59,7 +59,7 @@ export default function EventsSection() {
       </div>
 
       {/* ================= DESKTOP (2 CARDS PER ROW) ================= */}
-      <div className="hidden xl:grid xl:grid-cols-2 xl:h-full gap-5 bg-blue-200 ">
+      <div className="hidden xl:grid xl:grid-cols-2 xl:h-full">
         {filteredEvents.map((e, i) => (
           <div key={i} className="flex justify-center mb-5">
             <EventCardBig event={e} />

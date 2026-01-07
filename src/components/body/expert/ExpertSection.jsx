@@ -33,8 +33,8 @@ function ExpertSection() {
   ];
 
   return (
-    <section className="w-12/12 bg-green-500 flex justify-center  md:p-3 xl:p-0 mt-5 mb-15 xl:mb-20 ">
-      <div className="flex flex-col w-10/12 xl:justify-center xl:items-center bg-blue-700">
+    <section className="w-12/12 flex justify-center  md:p-3 xl:p-0 mt-5 mb-15 xl:mb-20 ">
+      <div className="flex flex-col w-10/12 xl:justify-center xl:items-center">
         {/* MOBILE */}
         <div className="md:hidden w-full p-5">
           <Swiper
@@ -76,7 +76,7 @@ function ExpertSection() {
 <div className="hidden xl:flex w-full flex-col gap-16 justify-center items-center">
 
   {/* ================= TOP ROW ================= */}
-  <div className="w-full flex justify-center bg-blue-400">
+  <div className="w-full flex justify-center">
     <div className="flex  justify-center gap-5">
       
       <div className="w-4/12 h-[256px] flex justify-center">
@@ -91,17 +91,17 @@ function ExpertSection() {
   </div>
 
   {/* ================= BOTTOM ROW ================= */}
-<div className="w-10/12 flex items-center justify-between gap-5 bg-green-800">
+<div className="w-11/12 flex items-center justify-between gap-3">
 
-  <div className="w-4/12 h-[256px] flex justify-center">
+  <div className="w-6/12 h-[256px] flex justify-center">
     <Card {...cards[2]} />
   </div>
 
-  <div className="w-4/12 h-[256px] flex justify-center">
+  <div className="w-6/12 h-[256px] flex justify-center">
     <Card {...cards[3]} />
   </div>
 
-  <div className="w-4/12 h-[256px] flex justify-center">
+  <div className="w-6/12 h-[256px] flex justify-center">
     <Card {...cards[4]} />
   </div>
 

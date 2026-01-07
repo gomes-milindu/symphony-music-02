@@ -16,7 +16,9 @@ export default function HomePage() {
         <ExpertSection />
         <Student />
         <ClassCartSet />
-        <UpComingSection />
+        <div className="hidden md:inline-block">
+          <UpComingSection />
+        </div>
         <div className="md:hidden">
           <UpComingSlide />
         </div>

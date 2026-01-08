@@ -8,22 +8,43 @@ import UpComingSection from "../section/homepage/UpComingSection";
 import Header from "../components/header/Header";
 import ClassCartSet from "../components/body/joinOurClasses/classCartSet";
 import Story from "../section/story/Story";
+import Reveal from "../animation/Reveal";
 export default function HomePage() {
   return (
     <>
       <div className="w-full h-full flex flex-col">
         <Header />
-        <OurStory />
+        <Reveal direction="top">
+          <OurStory />
+        </Reveal>
+
         {/* <ExpertSection /> */}
-        <Story />
-        <Student />
-        <ClassCartSet />
-        <div className="hidden md:inline-block">
-          <UpComingSection />
-        </div>
-        <div className="md:hidden">
-          <UpComingSlide />
-        </div>
+        <Reveal direction="right">
+          <Story />
+        </Reveal>
+
+        <Reveal>
+          <Student />
+        </Reveal>
+
+        <Reveal>
+          <ClassCartSet />
+        </Reveal>
+
+        
+          <div className="hidden md:inline-block">
+            <Reveal>
+              <UpComingSection />
+            </Reveal>
+            
+          </div>
+        
+
+        {/* <Reveal>
+          <div className="md:hidden">
+            <UpComingSlide />
+          </div>
+        </Reveal> */}
       </div>
     </>
   );

@@ -67,7 +67,7 @@ export default function ClassCartSet() {
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
-      location: "Harmony Concert Hall",
+      location: "Harmony Concert Hal",
     },
   ];
 

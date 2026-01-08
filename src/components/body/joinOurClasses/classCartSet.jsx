@@ -77,7 +77,7 @@ export default function ClassCartSet() {
         Join With Our Classes
       </h2>
 
-      <div className="w-10/12 sm:px-6 bg-red-600 flex justify-center items-center">
+      <div className="w-10/12 sm:px-6 flex justify-center items-center">
         <div className="w-full max-w-7xl flex justify-center items-center">
           
           <Swiper

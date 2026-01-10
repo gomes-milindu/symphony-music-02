@@ -9,6 +9,7 @@ import Header from "../components/header/Header";
 import ClassCartSet from "../components/body/joinOurClasses/classCartSet";
 import Story from "../section/story/Story";
 import Reveal from "../animation/Reveal";
+import Footer from "../section/Footer";
 export default function HomePage() {
   return (
     <>
@@ -45,6 +46,7 @@ export default function HomePage() {
             <UpComingSlide />
           </div>
         </Reveal> */}
+        <Footer />
       </div>
     </>
   );

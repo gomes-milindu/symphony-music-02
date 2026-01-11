@@ -38,7 +38,7 @@ export default function StaffSection() {
           md:pt-[64px]
           pt-[24px]
           mx-auto
-          xl:max-w-[1327.94px]
+          xl:max-w-[1170px]
           lg:max-w-[1100px]
           md:max-w-[800px]
           justify-items-center

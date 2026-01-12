@@ -1,6 +1,6 @@
 import React from "react";
 import Topic from "../topicComponent/Topic";
-import Button1 from "../../../Buttons/homePage/Button1";
+import Button1 from "../../../buttons/homepage/Button1";
 import StoryImg from "../../../assets/StorySectionImg.png";
 
 function OurStory() {

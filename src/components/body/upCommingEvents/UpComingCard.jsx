@@ -1,7 +1,7 @@
 
 import basic from "../../../assets/homePage/group.png";
-import icon1 from "../../../assets/icons/Icon1.png"
-import icon2 from "../../../assets/icons/Icon2.png"
+import icon1 from "../../../assets/icons/icon1.png";
+import icon2 from "../../../assets/icons/icon2.png";
 
 function UpComingCard(props) {
   return (

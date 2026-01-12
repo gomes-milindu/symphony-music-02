@@ -3,7 +3,7 @@ import mask from "../../assets/header/mask.png"
 
 import logo from "../../assets/header/logo.png"
 import Navbar from "./navBar/Navbar";
-import Button1 from "../../Buttons/homePage/Button1";
+import Button1 from "../../buttons/homepage/Button1";
 import HomePageBtn from "../../buttons/homepage/HomePageBtn";
 import maskTab from "../../assets/header/maskTab.png";
 import maskMobile from "../../assets/header/maskMobile.png"

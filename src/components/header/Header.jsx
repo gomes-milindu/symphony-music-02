@@ -7,13 +7,13 @@ import Button1 from "../../buttons/homepage/Button1";
 import HomePageBtn from "../../buttons/homepage/HomePageBtn";
 import maskTab from "../../assets/header/maskTab.png";
 import maskMobile from "../../assets/header/maskMobile.png"
-import { HiBars3 } from "react-icons/hi2";
+
 
 function Header() {
   return (
     <>
       {/* Mobile  */}
-      <section className="sm:hidden w-full aspect-[0.643] justify-center items-center">
+      <section className="sm:hidden w-full aspect-[0.643] justify-center items-center bg-amber-700">
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
@@ -61,9 +61,9 @@ function Header() {
       </section>
 
       {/* Web */}
-      <section className="hidden xl:inline-flex w-full h-screen justify-center items-center">
+      <section className="hidden xl:inline-flex w-full aspect-[1.9692] justify-center items-center bg-amber-950">
         <div
-          className="w-full h-[103vh] absolute z-1 top-0 bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
+          className="w-full aspect-[1.9692] absolute z-1 top-0 bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
             backgroundImage: `url(${mask})`,
             backgroundSize: "100% auto",

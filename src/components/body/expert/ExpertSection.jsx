@@ -33,7 +33,7 @@ function ExpertSection() {
   ];
 
   return (
-    <section className="w-12/12 xl:h-[550px]  flex justify-center xl:items-center  md:p-3 xl:p-0 mt-5 mb-15 xl:mb-20 ">
+    <section className="w-12/12 xl:h-[550px]  flex justify-center xl:items-center  md:p-3 xl:p-0 mb-15 xl:mb-20 bg-green-500">
       <div className="xl:h-fit flex flex-col w-10/12 xl:justify-center xl:items-center ">
         {/* MOBILE */}
         <div className="md:hidden w-full p-5">

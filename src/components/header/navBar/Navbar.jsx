@@ -28,6 +28,7 @@
 // }
 import { Link } from "react-router-dom"
 import { HiBars3 } from "react-icons/hi2";
+import OtherNavbar from "./OtherNavbar";
 
 function Navbar(){
     return(

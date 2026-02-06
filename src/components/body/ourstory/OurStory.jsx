@@ -6,7 +6,7 @@ import StoryImg from "../../../assets/StorySectionImg.png";
 function OurStory() {
   return (
     <>
-      <section className="w-full flex justify-center text-center xl:text-left items-center overflow-hidden xl:pt-9 xl:pb-9 xl:mb-8 md:p-5 p-5 xl:mt-5 bg-purple-500">
+      <section className="w-full flex justify-center text-center xl:text-left items-center overflow-hidden xl:pt-9 xl:pb-9 md:p-5 p-5 bg-pink-100">
         <div className="xl:w-9/12 w-full flex flex-row xl:justify-center xl:items-center lg:ml-5  pb-20">
           <div className="w-full xl:w-6/12 xl:flex flex flex-col h-full xl:gap-[30px] justify-center items-center xl:items-start">
             <div className="w-full md:w-1/2 xl:w-6/12 flex flex-col justify-center items-center">
@@ -59,7 +59,7 @@ function OurStory() {
                   of music.
                 </p>
               </div>
-              <div className="">
+              <div className="mt-5 xl:mt-0">
                 <Button1 buttonname="View About Us" />
               </div>
             </div>

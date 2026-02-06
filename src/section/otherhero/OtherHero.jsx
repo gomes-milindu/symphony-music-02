@@ -5,7 +5,7 @@ function OtherHero(props) {
     <>
       {/* Mobile hero */}
       <div
-        className="block sm:hidden w-full h-[55vh] bg-cover bg-no-repeat  bg-amber-800"
+        className="block sm:hidden w-full h-[55vh] bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url(${props.mobileImg})`,
         }}
@@ -19,7 +19,7 @@ function OtherHero(props) {
 
       {/* Tablet hero */}
       <div
-        className="hidden sm:inline-flex xl:hidden w-full aspect-[1.706] bg-contain bg-no-repeat justify-center items-start bg-red-700"
+        className="hidden sm:inline-flex xl:hidden w-full aspect-[1.706] bg-contain bg-no-repeat justify-center items-start"
         style={{
           backgroundImage: `url(${props.tabletImg})`, backgroundSize: "100% auto"
         }}

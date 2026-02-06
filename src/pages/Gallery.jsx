@@ -7,9 +7,9 @@ import Footer from "../section/Footer";
 function Gallery(){
     return(
          <>
-        <div className="hidden sm:inline-block">
+        {/* <div className="hidden sm:inline-flex"> */}
                 <OtherNavbar />
-              </div>
+              {/* </div> */}
         
         <OtherHero desktopImg={FrameGal} mobileImg={Framegal} tabletImg={galleryTab} title={"Gallery"} subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         {/* <OtherHero mobileImg={frame1} /> */}

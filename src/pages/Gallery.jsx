@@ -4,6 +4,7 @@ import OtherNavbar from "../components/header/navBar/OtherNavbar"
 import OtherHero from "../section/otherhero/OtherHero"
 import galleryTab from "../assets/gallery/galleryTab.png"
 import Footer from "../section/Footer";
+import MusicGallery from "../components/body/gallery/MusicGallery"
 function Gallery(){
     return(
          <>
@@ -13,6 +14,7 @@ function Gallery(){
         
         <OtherHero desktopImg={FrameGal} mobileImg={Framegal} tabletImg={galleryTab} title={"Gallery"} subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         {/* <OtherHero mobileImg={frame1} /> */}
+        <MusicGallery />
 
         <Footer />
         </>

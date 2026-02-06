@@ -18,6 +18,6 @@ export default defineConfig({
     },
     extend: {},
   },
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), ],
   
 })

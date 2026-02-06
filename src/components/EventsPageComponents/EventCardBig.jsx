@@ -6,7 +6,7 @@ export default function EventCardBig({ event }) {
     <div
       className="
         group
-        md:w-7/8 xl:w-full
+        md:w-7/8 xl:w-12/11
         bg-white
         border border-[#454545]/50
         rounded-[12px]

@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       {/* Mobile  */}
-      <section className="sm:hidden w-full aspect-[0.643] justify-center items-center bg-amber-700">
+      <section className="sm:hidden w-full aspect-[0.643] justify-center items-center">
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{

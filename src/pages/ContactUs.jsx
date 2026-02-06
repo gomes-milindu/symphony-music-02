@@ -7,7 +7,9 @@ import Footer from "../section/Footer";
 function ContactUs(){
     return(
         <>
+        <div className="hidden sm:inline-block">
         <OtherNavbar />
+      </div>
         
         <OtherHero tabletImg={contactTab} mobileImg={fram1} desktopImg={fram} title={"Contact Us"} subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         

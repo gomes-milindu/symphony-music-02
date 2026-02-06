@@ -12,7 +12,9 @@ import AchievementCartSet from "../components/body/achievementcarts/achievementC
 function AboutUs(){
     return(
         <>
+        <div className="hidden sm:inline-block">
         <OtherNavbar />
+      </div>
         
         <OtherHero tabletImg={aboutTab} mobileImg={aboutMob} desktopImg={about} title={"About Harmony"} subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         {/* <AchievementCartSet /> */}

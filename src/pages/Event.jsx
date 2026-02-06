@@ -10,7 +10,10 @@ import Curves from "../components/curves/Curves";
 function Event() {
   return (
     <>
-      <OtherNavbar />
+      <div className="hidden sm:inline-block">
+        <OtherNavbar />
+      </div>
+      
 
       <OtherHero tabletImg={eventTab} mobileImg={eventMob} desktopImg={event} title={"Events"} subtitle={"Capturing moments of musical joy, growth, and achievement"}/>
       

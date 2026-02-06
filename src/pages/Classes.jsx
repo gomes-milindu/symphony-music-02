@@ -8,7 +8,9 @@ import Footer from "../section/Footer";
 function Classes(){
     return(
         <>
+        <div className="hidden sm:inline-block">
         <OtherNavbar />
+      </div>
         
         <OtherHero tabletImg={classesTab} mobileImg={classesMob} desktopImg={classes} title={"Our Classes"} subtitle={"Capturing moments of musical joy, growth, and achievement"}/>
         {/* <OtherHero mobileImg={frame1} /> */}

@@ -14,13 +14,13 @@ export default function StaffSection() {
       <div className="flex justify-center">
         <Topic
           title="Meet Our Staff"
-          subtitle="Our faculty consists of professional musicians and dedicated educators committed to your success."
+          subtitle="Our faculty consists of professional musicians"
         />
       </div>
 
       {/* MOBILE CAROUSEL */}
       {!showAll && (
-        <div className="md:hidden">
+        <div className="md:hidden mt-10">
           <StaffMobileCarousel onShowAll={() => setShowAll(true)} />
         </div>
       )}

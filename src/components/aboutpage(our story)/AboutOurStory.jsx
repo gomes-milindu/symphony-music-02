@@ -11,7 +11,7 @@ function AboutOurStory() {
           
         />
 
-        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-center">
+        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
           Founded in 2010, Harmony Music School began with a simple mission: to
           make quality music education accessible to everyone. What started as a
           small studio with just three teachers has grown into one of the
@@ -22,7 +22,7 @@ function AboutOurStory() {
           music.
         </p>
 
-        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed">
+        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
           Founded in 2010, Harmony Music School began with a simple mission: to
           make quality music education accessible to everyone. What started as a
           small studio with just three teachers has grown into one of the
@@ -32,7 +32,7 @@ function AboutOurStory() {
           grown into one of the region's premier music institutions.
         </p>
 
-        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed">
+        <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
           We believe music is a universal language that transcends boundaries
           and enriches lives. Our dedicated team of professional musicians and
           educators work tirelessly to guide students not only to master their
@@ -49,7 +49,7 @@ function AboutOurStory() {
             
           />
 
-          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed">
+          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-justify p-2">
             Founded in 2010, Harmony Music School began with a simple mission: to
           make quality music education accessible to everyone. What started as a
           small studio with just three teachers has grown into one of the
@@ -67,7 +67,7 @@ function AboutOurStory() {
             
           />
 
-          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center">
+          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center text-justify p-2">
             Founded in 2010, Harmony Music School began with a simple mission: to
           make quality music education accessible to everyone. What started as a
           small studio with just three teachers has grown into one of the

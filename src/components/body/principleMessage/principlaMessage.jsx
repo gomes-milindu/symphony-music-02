@@ -5,13 +5,13 @@ export default function PrinciplaMessage() {
   return (
     <> 
     <div className="w-full mt-15">
-            <div className="flex justify-center xl:mb-10">
+            <div className="flex justify-center items-start xl:mb-10">
                 <Topic
                     title="Principle’s Message"
                     subtitle=""
                 />
             </div>
-            <div className="w-full flex justify-center m-4">
+            <div className="w-full flex justify-center mt-10">
                 <div className="lg:w-[70vw] flex lg:flex-row flex-col gap-6 xl:gap-9">
                     <div className="w-full lg:w-[20vw] lg:block flex justify-center  ">
                     

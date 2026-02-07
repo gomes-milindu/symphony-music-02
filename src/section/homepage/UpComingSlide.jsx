@@ -36,7 +36,7 @@ function UpComingSlide(){
 
     return(
       
-    <section className="w-full h-250 flex flex-col justify-center items-center">
+    <section className="w-full h-175 flex flex-col justify-start items-center mt-10">
       <div className="">
         <Topic
               title="Up Coming Events"

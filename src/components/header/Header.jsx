@@ -23,16 +23,23 @@ function Header() {
         >
           <Navbar />
           <div
-            className="w-30 h-30 bg-cover bg-center bg-no-repeat m-10"
+            className="w-35 h-35 bg-cover bg-center bg-no-repeat "
             style={{
               backgroundImage: `url(${logo})`,
               backgroundSize: "100% auto",
             }}
           ></div>
 
-          <div className="font-primary text-4xl  text-white m-5">Start Your Musica</div>
-          <div className="font-primary text-4xl  text-white">Journey Today</div>
-          <HomePageBtn />
+          <div className="flex flex-col justify-center items-center gap-2 m-5">
+            <div className="flex flex-col justify-center items-center">
+              <div className="font-primary text-[40px]  text-white  drop-shadow-2xl">Start Your Musical</div>
+              <div className="font-primary text-[40px]  text-white drop-shadow-2xl ">Journey Today</div>
+            </div>
+            <div className="text-white p-1 text-center text-[20px] font-secondary font-extralight">Learn from professional instructors in a
+            supportive environment</div>
+            <HomePageBtn />
+          </div>
+          
         </div>
       </section>
 

@@ -1,9 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Mousewheel, Autoplay } from "swiper/modules";
+import { Navigation, Mousewheel, Autoplay, EffectCoverflow } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
 
 import Guitar from "../../../assets/joinOurClass/Guitar.jpg";
 import Violine from "../../../assets/joinOurClass/Violine.jpg";
@@ -79,27 +80,27 @@ export default function ClassCartSet() {
 
       <div className="w-10/12 sm:px-6 flex justify-center items-center">
         <div className="w-full max-w-7xl flex justify-center items-center">
-          
+
           <Swiper
-            modules={[Navigation, Mousewheel, Autoplay]}
-            spaceBetween={16}
+            modules={[Navigation, Mousewheel, Autoplay, EffectCoverflow]}
+            effect={'coverflow'}
             grabCursor={true}
+            centeredSlides={true}
             loop={true}
-            centeredSlides={true} // ✅ Center active slide
-            slidesPerView={3}
+            slidesPerView={'auto'}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+              slideShadows: false, // Keep false for cleaner look
+            }}
             autoplay={{
-              delay: 2500, // ✅ Auto slide every 2.5s
+              delay: 2500,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
             speed={800}
-            breakpoints={{
-              0: { slidesPerView: 1.2 },
-              480: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 3 }, // ✅ Desktop shows 5
-            }}
             slideActiveClass="active-slide"
           >
             {classes.map((item) => (

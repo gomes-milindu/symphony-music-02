@@ -4,25 +4,25 @@ function Card(props) {
   return (
     <div
       className="
-        w-full h-[114px] md:h-[180px] xl:h-[220px]
+        w-full h-auto min-h-[100px] md:h-[180px] xl:h-[220px]
         rounded-[14.35px] md:rounded-2xl xl:rounded-3xl
-        border border-[0.6px] border-[#C87C03] 
+        border-[0.6px] md:border border-[#C87C03] md:border-[#C87C03]
         flex flex-row md:flex-col
         items-center md:items-center
         justify-start md:justify-center
-        gap-[14px] md:gap-[16px]  xl:gap-[26px]
-        px-4 md:px-3 xl:px-3  bg-[#FFFCF3]
-       md:bg-white
+        gap-[16px] md:gap-[16px] xl:gap-[26px]
+        p-4 md:px-3 xl:px-3
+        bg-[#FFFCF3] md:bg-white
       "
     >
       {/* ICON (CENTERED + ROUND) */}
-    <div className="w-[45px] h-[45px] md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-full md:rounded-full bg-[#FFC107] flex items-center justify-center shrink-0">
-  <img
-    src={props.icon}
-    alt="icon"
-    className="w-[21.4px] h-[21.4px] md:w-[25px] md:h-[25px] xl:w-[30.5px] xl:h-[30.5px]"
-  />
-</div>
+      <div className="w-[45px] h-[45px] md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-full md:rounded-full bg-[#FFC107] flex items-center justify-center shrink-0">
+        <img
+          src={props.icon}
+          alt="icon"
+          className="w-[21.4px] h-[21.4px] md:w-[25px] md:h-[25px] xl:w-[30.5px] xl:h-[30.5px]"
+        />
+      </div>
 
 
       {/* TEXT (LEFT MOBILE, CENTER DESKTOP) */}

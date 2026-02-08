@@ -12,16 +12,17 @@
   font-style: normal;
 }
 
-@theme{
+@theme {
 
-    --font-primary: 'Beacon Aesthetic', sans-serif;
-    --font-secondary: 'Inter', sans-serif;
+  --font-primary: 'Beacon Aesthetic', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
 
-    /* font-colors */
-    --color-primary: #e08a00;
-    --color-secondary: #4A5565;
+  /* font-colors */
+  --color-primary: #e08a00;
+  --color-secondary: #4A5565;
 
-    --breakpoint-xsm: 430px;  /* custom small breakpoint */
+  --breakpoint-xsm: 430px;
+  /* custom small breakpoint */
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
@@ -34,23 +35,3 @@ body {
   font-family: 'Beacon Aesthetic', sans-serif;
   font-family: 'Inter', sans-serif;
 }
-
-.swiper-slide .swiper-scale-wrapper {
-  transform: scale(0.9);
-  transition: transform 0.5s ease;
-}
-
-.swiper-slide-active .swiper-scale-wrapper {
-  transform: scale(1.08);
-  z-index: 10;
-}
-
-
-
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@ import { GrLocation } from "react-icons/gr";
 
 export default function ClassCart({ image, grade, date, time, location }) {
   return (
-    <div className="relative w-77.5 md:w-80 xl:w-8/12 flex flex-col items-center p-1 gap-4 rounded-[7.76px] bg-white border border-black">
+    <div className="relative w-full md:w-80 xl:w-8/12 flex flex-col items-center p-1 gap-4 rounded-[7.76px] bg-white border border-black">
       <div className="relative w-full h-42 rounded-xl overflow-hidden ">
         <img
           src={image}
@@ -47,18 +47,14 @@ export default function ClassCart({ image, grade, date, time, location }) {
         </div>
         <button
           className="
-            
             w-full
-            rounded-lg xl:border xl:border-[#454545] 
+            rounded-lg
             flex items-center justify-center bg-[#FDC700]  
-           xl:bg-white p-1
+            p-2
           "
         >
-          {/* <span className="font-inter font-medium text-[18px] leading-[20.78px] tracking-[0px] text-black xl:hidden">
+          <span className="font-inter font-medium text-[16px] text-black">
             Read More
-          </span> */}
-          <span className=" hidden xl:inline font-inter font-medium text-[12px] text-[#454545] font-medium">
-            View details
           </span>
         </button>
       </div>

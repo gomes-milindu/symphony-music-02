@@ -34,9 +34,9 @@ function ExpertSection() {
 
   return (
     <section className="w-12/12 xl:h-[550px]  flex justify-center xl:items-center  md:p-3 xl:p-0 mb-15 xl:mb-20 ">
-      <div className="xl:h-fit flex flex-col w-10/12 xl:justify-center xl:items-center ">
+      <div className="xl:h-fit flex flex-col w-11/12 md:w-10/12 xl:justify-center xl:items-center ">
         {/* MOBILE */}
-        <div className="md:hidden w-full p-5">
+        <div className="md:hidden w-full p-2">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
